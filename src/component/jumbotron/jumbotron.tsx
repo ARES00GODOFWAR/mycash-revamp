@@ -2,7 +2,7 @@ const Jumbotron = () => {
     return (
         <>
             <div className="relative bg-white">
-                <div className="container m-auto px-6 pt-32 md:px-12 lg:pt-[4.8rem] lg:px-7">
+                <div className="container ml-10 px-6 pt-32 md:px-12 lg:pt-[4.8rem] lg:px-7">
                     <div className="flex items-center flex-wrap px-2 md:px-0">
                         <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
                             <hr className='w-32 border-[1.5px] border-red-500 mb-2'/>
@@ -15,7 +15,7 @@ const Jumbotron = () => {
                             </div>
                         </div>
                         <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
-                            <img src="assets/images/home_banner1.png" className="relative" alt="food illustration"
+                            <img src="assets/images/home_banner1.png" className="relative ml-32" alt="food illustration"
                                  loading="lazy" width="4500" height="4500"></img>
                         </div>
                     </div>
