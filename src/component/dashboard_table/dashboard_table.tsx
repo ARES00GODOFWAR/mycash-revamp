@@ -4,7 +4,7 @@
 const DashboardTable = () => {
     return (
         <>
-            <section className="container mx-auto p-6 font-mono">
+            <section className="w-full mx-auto p-6 font-mono">
                 <div className="w-full mb-8 overflow-hidden rounded-lg shadow-lg p-10">
                     <div className="pb-6">Recent Transactions</div>
                     <div className="w-full overflow-x-auto">
