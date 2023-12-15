@@ -24,7 +24,7 @@ const NavBar: React.FC<NavBarProps> = ({ isAuthenticated }) => {
 
                                 </></>
                         ) : (
-                            <button className="bg-red-500 text-white p-2 rounded">Get the App</button>
+                            <button className="bg-red-500 flex items-center justify-center text-white px-6 py-2 rounded-md">Get the App</button>
                         )}
                         
                         <button data-collapse-toggle="navbar-user" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
@@ -39,13 +39,13 @@ const NavBar: React.FC<NavBarProps> = ({ isAuthenticated }) => {
                         {isAuthenticated ? (
                             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
                                 <li>
-                                    <a href="#" className="block py-2 px-3 text-black rounded font-light">Dashboard</a>
+                                    <a href="/dashboard" className="block py-2 px-3 text-black text-lg rounded font-light">Dashboard</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 px-3 text-black rounded ">Transactions</a>
+                                    <a href="#" className="block py-2 px-3 text-black rounded text-lg ">Transactions</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block py-2 px-3 text-gray-900 rounded ">Support and Help</a>
+                                    <a href="#" className="block py-2 px-3 text-gray-900 rounded text-lg">Support and Help</a>
                                 </li>
                             </ul>
                         ) : (

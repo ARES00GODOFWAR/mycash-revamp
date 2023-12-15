@@ -7,7 +7,7 @@ import NavBar from "~/navbar/navbar";
 export default function Home() {
   return (
     <>
-    <NavBar isAuthenticated={true}/>
+    <NavBar isAuthenticated={false}/>
       <Jumbotron/>
       <FeatureBar/>
       <Jumbotron2/>
