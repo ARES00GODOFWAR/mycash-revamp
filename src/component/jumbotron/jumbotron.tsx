@@ -2,7 +2,7 @@ const Jumbotron = () => {
     return (
         <>
             <div className="relative bg-white">
-                <div className="container mx-auto px-6 pt-10 md:pt-20 lg:pt-32">
+                <div className="container mx-auto px-6 ">
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
                         <div className="text-center md:text-left md:w-6/12 lg:py-24 xl:py-32">
                             <hr className='w-32 border-[1.5px] border-red-500 mb-2'/>
