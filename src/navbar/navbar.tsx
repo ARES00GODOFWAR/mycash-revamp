@@ -9,7 +9,7 @@ const NavBar: React.FC<NavBarProps> = ({ isAuthenticated }) => {
         <>
             <nav className="bg-white border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <a className="flex items-center space-x-3 rtl:space-x-reverse" href="/">
                         <img src="https://file.rendit.io/n/D0LWZkzGhzHBOcXBec7V.png" className="h-8" alt="null" />
                     </a>
                         
